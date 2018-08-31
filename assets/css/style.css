@@ -1,0 +1,10 @@
+/* Style the Star Wars Game*/
+
+.character {
+    width: 100px;
+    /* float: left */
+}
+
+.player-character {
+    width: 100%
+}
