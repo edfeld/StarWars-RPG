@@ -61,7 +61,7 @@ $(document).ready(function() {
             charNameDiv.addClass("text-center");
             charNameDiv.text(this.charactersToPick[objKey].name);
             characterDiv.append(charNameDiv);
-            var charImage = $("<img>");
+            var charImage = $("<img>"); 
             // charImage.addClass("px-auto");
             charImage.attr({"src": "assets/images/" + this.charactersToPick[objKey].picture, "alt": "picture of " + this.charactersToPick[objKey].name, "height": "100px" });
             characterDiv.append(charImage);
