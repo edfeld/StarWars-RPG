@@ -1,7 +1,10 @@
 /* Style the Star Wars Game*/
 
+body {
+    background-color: cyan;
+}
 .character {
-    width: 100px;
+    width: 200px;
     /* float: left */
 }
 

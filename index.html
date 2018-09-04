@@ -13,25 +13,35 @@
   <body>
         <div class="bg-light">
                 <h1 class="display-4 text-center">Star Wars RPGame</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <p class="lead text-center">This is a simple Role Playing Game designed and implemented by Edward Einfeld.</p>
         </div>
         <div class="container">
-            <span class="text-primary">Sideline</span>
+            <span id="sidelineHeader" class="sideline text-primary">Sideline</span>
             <div id="sideline" class="clearfix">
-                
+               
             </div>
             <span class="text-primary">Your Character</span>
             <div id="hero" class="clearfix">
             </div>
             <span class="text-primary">Enemies Available To Attack</span>
-            <div id="enemy" class="clearfix">
+            <div id="enemy" class="clearfix mb-2">
+                
             </div>
             
-            <div id="fight-section">
-                <button id="Attack">Attach</button>
+            <div id="fight-section" class="mt-2">
+                <button id="attack">Attack</button>
             </div>
-            <span class="text-primary">Defender</span>
+            <span class="text-primary mb-2">Defender</span>
             <div id="defender" class="clearfix">
+                
+            </div>
+            <div class="feedback">
+                <h6 >Game status</h6>
+                <p class="gameResponse"></p>
+                <p class="gameResponseTwo"></p>
+            </div>
+            <div class="restart visible">
+                <button id="restart" >Restart</button>
             </div>
         </div>
     <!-- Optional JavaScript -->
