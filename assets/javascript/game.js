@@ -154,8 +154,7 @@ $(document).ready(function() {
                 console.log("147 Hero attacks!");
                 /* GameResponse Output - Hero attacks with hit points */
                 gameResponse = "Hero attacks with " + heroHitPoints + " hit points. "
-                // $(".gameResponse").text("Hero attacks with " + heroHitPoints + " hit points.");
-                // $(".gameResponseTwo").text(" ");
+                
                 /* decrement DefenderHP */
                 this.charactersToPick[defender.attr("characterid")].healthPoints = defenderHealthPoints - heroHitPoints; 
                 /* Power up Hero Hit points*/           
