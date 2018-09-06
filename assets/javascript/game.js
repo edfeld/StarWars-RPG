@@ -1,6 +1,8 @@
 // Star Wars JavaScript
 $(document).ready(function() {
 
+    var audio = new Audio("../audio/Slide_Whistle_Down.mp3");
+
     let starWarsGame = {
         charactersToPick: {
             obiwan: {
@@ -170,6 +172,7 @@ $(document).ready(function() {
                 } else {
                     /* Update Defender HealthPoints even though dead */
                     // $("#defender .healthPoints").text(this.charactersToPick[defender.attr("characterid")].healthPoints);
+                    audio.play();
                     $("#defender").fadeTo( "slow", 0.33 );
                     var delayButtonAlert = setTimeout(function() {
                         $("#defender > .character").remove();
