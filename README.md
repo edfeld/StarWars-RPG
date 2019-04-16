@@ -1,15 +1,21 @@
 # StarWars-RPG
 
-Pick a Hero and a foe and do battle. 
+## a StarWars Role Player Game written with HTML, CSS, JavaScript with JQuery
 
-The game player picks a character from the sideline by clicking on one.  The character selected drops into the defender division.  
-The game player then selects a character to do battle with.  This character drops into the defender div. 
+Pick a Hero and a Foe and do battle.
 
-The game player then presses the attack button.  This causes the Hero to attack the defender.  In the attack the hero reduces the defenders health points. When a characters health points are reduce to zero or less than zero the character dies.  
-after the hero's attack the defender counter attacks using his counter attack points to reduce the defender's health points. 
+The game player picks a character from the sideline by clicking on it.  The character selected drops into the "Your Character" division of the screen.  
+The game player then selects a character to do battle with.  This character drops into the defender division.
 
-When a defender dies, the player can select another foe to battle.  
+The game player then presses the attack button.  This causes the hero to attack the defender.  In the attack, the hero reduces the defenders health points. When a characters health points are reduce to zero or less than zero, the character dies.  
+After the hero's attack, the defender counter-attacks using his counter-attack points to reduce the defender's health points.
 
-This goes on until either the hero is defeated or all the enemies are vanquished. 
+When a defender dies, the player can select another foe to do battle with.  
 
-At this point the player can restart the game with the restart button.  
+Play contines until either the hero is defeated or all the enemies are vanquished.
+
+At the end of play, the player can restart the game with the restart button.  
+
+[Click here to go to the game](https://edfeld.github.io/StarWars-RPG/)
+
+Choose a player to begin the game.  Then chose a foe to do battle.

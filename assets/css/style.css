@@ -8,6 +8,14 @@ body {
     /* float: left */
 }
 
+.character:hover {
+    cursor: pointer;
+}
+
 .player-character {
     width: 100%
+}
+
+button {
+    cursor: pointer;
 }
