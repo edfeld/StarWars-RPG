@@ -1,6 +1,6 @@
 # StarWars-RPG
 
-## a StarWars Role Player Game written with HTML, CSS, JavaScript with JQuery
+## A StarWars Role Player Game written with HTML, CSS, JavaScript with JQuery
 
 Pick a Hero and a Foe and do battle.
 
