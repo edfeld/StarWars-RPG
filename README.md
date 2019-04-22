@@ -1,5 +1,7 @@
 # StarWars-RPG
 
+![StarWarsGame800x400](https://user-images.githubusercontent.com/18557337/56515371-a1bba700-64ec-11e9-8b71-8962359cdf71.png)
+
 ## a StarWars Role Player Game written with HTML, CSS, JavaScript with JQuery
 
 Pick a Hero and a Foe and do battle.
